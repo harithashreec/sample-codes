@@ -1,0 +1,17 @@
+SELECT * FROM  user_module.employees;
+INSERT INTO user_module.employees VALUES ('1','sales','sam','21000');
+INSERT INTO user_module.employees VALUES ('2','hr','sam','21000');
+INSERT INTO user_module.employees VALUES ('3','sales','sam','21000');
+INSERT INTO user_module.employees VALUES ('4','admin','sam','21000');
+INSERT INTO user_module.employees VALUES ('5','manager','sam','21000');
+INSERT INTO user_module.employees VALUES ('6','sales','sam','21000');
+INSERT INTO user_module.employees VALUES ('7','hr','sam','21000');
+INSERT INTO user_module.employees VALUES ('8','admin','sam','21000');
+INSERT INTO user_module.employees VALUES ('9','manager','sam','21000');
+INSERT INTO user_module.employees VALUES ('10','sales','sam','21000');
+INSERT INTO user_module.employees VALUES ('11','manager','sam','21000');
+INSERT INTO user_module.employees VALUES ('12','admin','sam','21000');
+INSERT INTO user_module.employees VALUES ('13','CEO','sam','21000000');
+INSERT INTO user_module.employees VALUES ('14','admin','sam','45000');
+INSERT INTO user_module.employees VALUES ('15','hr','sam','70000');
+DESCRIBE user_module.employees;
