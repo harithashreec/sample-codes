@@ -1,0 +1,15 @@
+SELECT * FROM user_module.user;
+USE user_module;
+CREATE TABLE student (
+id INT PRIMARY KEY,
+name VARCHAR(30),
+gpa DECIMAL(3,2)
+);
+
+DESCRIBE student;
+INSERT INTO user_module.student VALUES ('1','ram','8.7','ECE');
+INSERT INTO user_module.student VALUES ('2','sam','8.6','ECE');
+INSERT INTO user_module.student VALUES ('3','ravi','8.7','ECE');
+INSERT INTO user_module.student VALUES ('4','kavil','8.8','ECE');
+INSERT INTO user_module.student VALUES ('5','ree','8.9','ECE');
+SELECT * FROM student ;
